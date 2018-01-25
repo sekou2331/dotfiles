@@ -27,3 +27,6 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[user]
+	name = Amal Sudama
+	email = cds.sudama@gmail.com
