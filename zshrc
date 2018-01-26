@@ -13,7 +13,8 @@ _load_settings() {
     if [ -d "$_dir/pre" ]; then
         echo "in pre"
       for config in "$_dir"/pre/**/*(N-.); do
-        if [ ${config:e} = "zwc" ] ; then continue ; fi
+        echo "${config}"
+        # if [ ${config:e} = "zwc" ] ; then continue ; fi
         echo "that has to source $config"
         . $config
       done
@@ -38,7 +39,7 @@ _load_settings() {
     if [ -d "$_dir/post" ]; then
       echo "in post"
       for config in "$_dir"/post/**/*(N-.); do
-        if [ ${config:e} = "zwc" ] ; then continue ; fi
+        # if [ ${config:e} = "zwc" ] ; then continue ; fi
         echo "that has to source $config"
         . $config
       done
