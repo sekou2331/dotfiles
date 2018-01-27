@@ -167,7 +167,7 @@ Shell aliases and scripts:
 License
 -------
 
-![`LICENSE`](/LICENSE)
+[`LICENSE`](/LICENSE)
 
 Thanks thoughtbot!
 ------------------
